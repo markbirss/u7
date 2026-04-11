@@ -1,8 +1,12 @@
 # u7 - U7-RK3506-128+256HMI
-@ $31
-U7-RK3506G2-KD-12A
 
-Rockchip Micro RK3506G Development Board 7-Inch 1024*600 IPS Full Viewing Angle 7-inch 1024*600 IPS Low Cost
+@ $31
+
+128MB Ram
+
+256MB SPI NAND Flash
+
+Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
 
 5/12/24v power input
 
