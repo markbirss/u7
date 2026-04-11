@@ -1,0 +1,74 @@
+/{
+    vccio_sd: vccio-sd {
+        compatible = "regulator-fixed";
+        regulator-name = "vccio_sd";
+        // gpios = <&gpio0 RK_PA0 GPIO_ACTIVE_HIGH>;
+        // states = <3300000 1 1800000 0>;
+        // pinctrl-names = "default";
+        // pinctrl-0 = <&sdmmc_volt>;
+        regulator-min-microvolt = <3300000>;
+        regulator-max-microvolt = <3300000>;
+        regulator-always-on;
+        regulator-boot-on;
+    };
+};
+
+
+&mmc {
+    vqmmc-supply = <&vccio_sd>;
+    vmmc-supply = <&vccio_sd>;
+    status = "okay";
+    max-frequency = <50000000>; 
+    bus-width = <1>;
+    no-sdio;
+    no-mmc;
+    cap-mmc-highspeed;
+    cap-sd-highspeed;
+    cd-gpios = <&gpio3 RK_PA6 GPIO_ACTIVE_LOW>;
+    disable-wp;
+    sd-uhs-sdr50;
+    pinctrl-names = "normal", "idle";
+    pinctrl-0 = <&sdmmc0_pins &sdmmc_det>;
+    pinctrl-1 = <&sdmmc0_idle_pins &sdmmc_det>;
+    card-detect-delay = <1200>;
+};
+
+&pinctrl {
+    sdcard{
+        sdmmc0_idle_pins: sdmmc-idle-pins {
+            rockchip,pins =
+                /* sdmmc_d0 */
+                <3 RK_PA2 1 &pcfg_pull_down>,
+                /* sdmmc_d1 */
+                <3 RK_PA3 1 &pcfg_pull_down>,
+                /* sdmmc_d2 */
+                <3 RK_PA4 1 &pcfg_pull_down>,
+                /* sdmmc_d3 */
+                <3 RK_PA5 1 &pcfg_pull_down>,
+                /* sdmmc_clk */
+                <3 RK_PA0 1 &pcfg_pull_down>,
+                /* sdmmc_cmd */
+                <3 RK_PA1 1 &pcfg_pull_down>;
+        };
+        
+        sdmmc0_pins: sdmmc0-pins {
+            rockchip,pins =
+                /* sdmmc_d0 */
+                <3 RK_PA2 1 &pcfg_pull_up>,
+                /* sdmmc_d1 */
+                <3 RK_PA3 1 &pcfg_pull_up>,
+                /* sdmmc_d2 */
+                <3 RK_PA4 1 &pcfg_pull_up>,
+                /* sdmmc_d3 */
+                <3 RK_PA5 1 &pcfg_pull_up>,
+                /* sdmmc_clk */
+                <3 RK_PA0 1 &pcfg_pull_up>,
+                /* sdmmc_cmd */
+                <3 RK_PA1 1 &pcfg_pull_up>;
+        };
+        
+        sdmmc_det: sdmmc-det {
+            rockchip,pins = <3 RK_PA6 RK_FUNC_GPIO &pcfg_pull_up>;
+        };
+    };
+};
