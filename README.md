@@ -1,4 +1,13 @@
-# u7
+# u7 - U7-RK3506G2-KD-12A
+
+Rockchip Micro RK3506G Development Board 7-Inch 1024*600 IPS Full Viewing Angle 7-inch 1024*600 IPS Low Cost Labor Control
+
+5/12/24v power input
+
+$31
+
+<img width="800" height="800" alt="H77bc5a1fbb104d97887a9dd94e903784L" src="https://github.com/user-attachments/assets/588b08a7-e538-45b7-970e-84e433609ae4" />
+
 
 ```
 git clone https://github.com/markbirss/u7.git
