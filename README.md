@@ -1,4 +1,6 @@
-# u7 - U7-RK3506G2-KD-12A
+# u7 - U7-RK3506-128+256HMI
+
+U7-RK3506G2-KD-12A
 
 Rockchip Micro RK3506G Development Board 7-Inch 1024*600 IPS Full Viewing Angle 7-inch 1024*600 IPS Low Cost Labor Control
 
