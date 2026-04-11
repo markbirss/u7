@@ -5,6 +5,7 @@
 
 
 Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
+
 128MB Ram
 
 256MB SPI NAND Flash
