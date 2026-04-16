@@ -19,7 +19,7 @@ Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
 <img width="800" height="800" alt="H77bc5a1fbb104d97887a9dd94e903784L" src="https://github.com/user-attachments/assets/588b08a7-e538-45b7-970e-84e433609ae4" />
 
 ```
-git clone https://github.com/markbirss/u7.git
+git clone -b usb-rootfs https://github.com/markbirss/u7.git
 cd u7/buildroot/dl
 7z x dl.7z.001
 cd ../../
