@@ -25,6 +25,11 @@ cd u7/buildroot/dl
 7z x dl.7z.001
 cd ../../
 
+nano ./kernel-6.1/arch/arm/boot/dts/rp-rk3506b-board.dtsi
+#change root= to /dev/sda1 for Armbian and /dev/sda3 for Ubuntu 24.04.x USB
+
+bootargs = "earlycon=uart8250,mmio32,0xff0a0000 console=tty1 console=ttyFIQ0 root=/dev/sda3 rootfstype=ext4 rootwait snd_aloop.index=7 snd_aloop.use_raw_jiffies=1";
+
 ./build.sh lunch
 Log colors: message notice warning error fatal
 
