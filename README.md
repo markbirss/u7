@@ -20,6 +20,7 @@ Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
 
 ```
 git clone https://github.com/markbirss/u7.git
+chmod +x ./tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool/upgrade_tool
 cd u7/buildroot/dl
 7z x dl.7z.001
 cd ../../
