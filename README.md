@@ -7,6 +7,7 @@ Feature |  |  Supported |
 | WiFi |  | Not yet |
 | Touch |  | Yes |
 | 1024x600 Display |  | Yes |
+| On screen keyboard |  | Yes |
 | USB Networking |  | Yes |
 | ADB |  | Yes |
 
