@@ -2,8 +2,6 @@
 
 @ $31
 
-Currently Workig
-
 Feature |  |  Supported |
 |:--|:--|:--|
 | WiFi |  | Not yet |
