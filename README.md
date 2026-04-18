@@ -84,4 +84,7 @@ Available devices:
 /dev/input/event4:      fbkeyboard
 Select the device event number [0-4]: 
 
+Test suite for Linux framebuffer
+https://github.com/markbirss/fb-test-app
+
 ```
