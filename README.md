@@ -18,6 +18,7 @@ Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
 
 <img width="800" height="800" alt="H77bc5a1fbb104d97887a9dd94e903784L" src="https://github.com/user-attachments/assets/588b08a7-e538-45b7-970e-84e433609ae4" />
 
+
 ```
 git clone -b usb-rootfs https://github.com/markbirss/u7.git
 chmod +x ./u7/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool/upgrade_tool
@@ -57,6 +58,7 @@ https://github.com/i-can-penguin/fbkeyboard
 ```
 
 <img width="600" height="1024" alt="keyboard" src="https://github.com/user-attachments/assets/3bd5718b-1ec1-4f16-b498-2ca0e1e07325" />
+
 
 ```
 
