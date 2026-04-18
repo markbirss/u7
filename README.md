@@ -61,7 +61,6 @@ https://github.com/i-can-penguin/fbkeyboard
 
 
 ```
-
 /lib/systemd/system/keyboard.service
 [Unit]
 Description=Display Orientation Daemon
