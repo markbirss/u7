@@ -74,8 +74,14 @@ WantedBy=multi-user.target
 exit 0
 
 
-
-
 evtest
+No device specified, trying to scan all of /dev/input/event*
+Available devices:
+/dev/input/event0:      goodix-ts
+/dev/input/event1:      gpio_event
+/dev/input/event2:      bt-powerkey
+/dev/input/event3:      adc-keys
+/dev/input/event4:      fbkeyboard
+Select the device event number [0-4]: 
 
 ```
