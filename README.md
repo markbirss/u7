@@ -2,7 +2,15 @@
 
 @ $31
 
+Currently Workig
 
+Feature |  |  Supported |
+|:--|:--|:--|
+| WiFi |  | Not yet |
+| Touch |  | Yes |
+| 1024x600 Display |  | Yes |
+| USB Networking |  | Yes |
+| ADB |  | Yes |
 
 Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
 
