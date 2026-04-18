@@ -54,9 +54,11 @@ modetest -M rockchip -s 74@71:1024x600
 Onscreen framebuffer keyboard in Meshtastic Green (0x67EA94)
 
 https://github.com/i-can-penguin/fbkeyboard
+```
 
 <img width="600" height="1024" alt="keyboard" src="https://github.com/user-attachments/assets/3bd5718b-1ec1-4f16-b498-2ca0e1e07325" />
 
+```
 /lib/systemd/system/keyboard.service
 [Unit]
 Description=Display Orientation Daemon
