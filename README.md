@@ -55,8 +55,7 @@ Onscreen framebuffer keyboard in Meshtastic Green (0x67EA94)
 
 https://github.com/i-can-penguin/fbkeyboard
 
-<img width="600" height="1024" alt="image" src="https://github.com/user-attachments/assets/25a3ae4b-600b-4b95-93d5-aff1b1fd773f" />
-
+<img width="600" height="1024" alt="keyboard" src="https://github.com/user-attachments/assets/3bd5718b-1ec1-4f16-b498-2ca0e1e07325" />
 
 /lib/systemd/system/keyboard.service
 [Unit]
