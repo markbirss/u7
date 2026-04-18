@@ -100,4 +100,8 @@ Select the device event number [0-4]:
 Test suite for Linux framebuffer
 https://github.com/markbirss/fb-test-app
 
+fbgrab linux framebuffer screenshot utility.
+https://github.com/markbirss/fbgrab
+
+fbgrab screen.png
 ```
