@@ -50,6 +50,32 @@ Which would you like? [1]:  5
 adb shell
 
 modetest -M rockchip -s 74@71:1024x600
+
+Onscreen framebuffer keyboard in Meshtastic Green (0x67EA94)
+
+https://github.com/i-can-penguin/fbkeyboard
+
+/lib/systemd/system/keyboard.service
+[Unit]
+Description=Display Orientation Daemon
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/keyboard.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
+/usr/bin/keyboard.sh
+#!/bin/sh
+/home/lyra/fbkeyboard/fbkeyboard -f /usr/share/fonts/truetype/noto/NotoMono-Regular.ttf -r 1 &
+exit 0
+
+
+
+
 evtest
 
 ```
