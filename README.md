@@ -13,7 +13,7 @@ Feature | Supported | Notes  |
 | USB Networking | Yes | 192.168.123.100 via USB 2.0 OTG Port |
 | ADB | Yes | via USB 2.0 OTG Port |
 | USB Storage | Yes | USB 2.0 rootfs |
-| SPI Nand Flash | Yes | 256mb |
+| SPI Nand Flash | Yes | 256MB |
 
 
 Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
