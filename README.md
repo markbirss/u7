@@ -26,6 +26,14 @@ Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
 
 <img width="800" height="800" alt="H77bc5a1fbb104d97887a9dd94e903784L" src="https://github.com/user-attachments/assets/588b08a7-e538-45b7-970e-84e433609ae4" />
 
+Changing bootargs fbcon rotate will rotate the display framebuffer
+
+```
+nano ./kernel-6.1/arch/arm/boot/dts/rp-rk3506b-board.dtsi
+
+bootargs = "earlycon=uart8250,mmio32,0xff0a0000 console=tty1 console=ttyFIQ0 fbcon=rotate:1 
+```
+
 
 ```
 git clone -b usb-rootfs https://github.com/markbirss/u7.git
