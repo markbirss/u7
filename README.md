@@ -4,14 +4,17 @@
 
 Feature | Supported | Notes  |
 |:--|:--|:--|
-| WiFi | Yes | AP6212A - Broadcom BCM43438 combo and Bluetooth Low Energy|
+| WiFi | Yes | AP6212A |
 | BLE | Still todo |  |
 | Touch | Yes | goodix-ts |
-| 1024x600 Display | Yes |  |
-| Portrait Mode | Yes |  |
+| 1024x600 Display | Yes | 7inch IPS |
+| Portrait Mode | Yes | fbcon=rotate:1  |
 | On screen keyboard | Yes | fbkeyboard |
-| USB Networking | Yes |  |
-| ADB | Yes |  |
+| USB Networking | Yes | 192.168.123.100 via USB 2.0 OTG Port |
+| ADB | Yes | via USB 2.0 OTG Port |
+| USB Storage | Yes | USB 2.0 rootfs |
+| SPI Nand Flash | Yes | 256mb |
+
 
 Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
 
