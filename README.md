@@ -2,15 +2,15 @@
 
 @ $31
 
-Feature |  |  Supported |
+Feature | Supported | Notes  |
 |:--|:--|:--|
-| WiFi |  | Not yet |
-| Touch |  | Yes |
-| 1024x600 Display |  | Yes |
-| Portrait Mode |  | Yes |
-| On screen keyboard |  | Yes |
-| USB Networking |  | Yes |
-| ADB |  | Yes |
+| WiFi | Yes | AP6212A - Broadcom BCM43438 combo and Bluetooth Low Energy|
+| Touch | Yes | goodix-ts |
+| 1024x600 Display | Yes |  |
+| Portrait Mode | Yes |  |
+| On screen keyboard | Yes | fbkeyboard |
+| USB Networking | Yes |  |
+| ADB | Yes |  |
 
 Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
 
