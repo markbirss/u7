@@ -11,7 +11,7 @@ Feature | Working | Notes  |
 | 1024x600 Display | Yes | 7inch IPS |
 | Portrait Mode | Yes | fbcon=rotate:1  |
 | On screen keyboard | Yes | fbkeyboard |
-| USB Networking | Yes | 192.168.123.100 via USB 2.0 OTG Port |
+| USB Networking | Yes | 192.168.123.100 via USB 2.0 OTG port |
 | ADB | Yes | via USB 2.0 OTG Port |
 | Serial Console | Yes | UART @ 115200 |
 | USB Storage | Yes | USB 2.0 HOST port used for rootfs |
