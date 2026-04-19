@@ -5,8 +5,8 @@
 Feature | Supported | Notes  |
 |:--|:--|:--|
 | WiFi | Yes | AP6212A |
-| BLE | Still todo |  |
-| Touch | Yes | goodix-ts |
+| BLE | Still todo | missing UART and kernel modules ? |
+| I2C Touch | Yes | goodix-ts |
 | 1024x600 Display | Yes | 7inch IPS |
 | Portrait Mode | Yes | fbcon=rotate:1  |
 | On screen keyboard | Yes | fbkeyboard |
