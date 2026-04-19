@@ -3,7 +3,7 @@ Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
 
 @ $31
 
-Feature | Supported | Notes  |
+Feature | Working | Notes  |
 |:--|:--|:--|
 | WiFi | Yes | AP6212A |
 | BLE | Still todo | missing UART and kernel modules ? |
