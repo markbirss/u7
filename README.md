@@ -12,8 +12,8 @@ Feature | Supported | Notes  |
 | On screen keyboard | Yes | fbkeyboard |
 | USB Networking | Yes | 192.168.123.100 via USB 2.0 OTG Port |
 | ADB | Yes | via USB 2.0 OTG Port |
-| USB Storage | Yes | USB 2.0 rootfs |
-| SPI Nand Flash | Yes | 256MB |
+| USB Storage | Yes | USB 2.0 for rootfs |
+| SPI Nand Flash | Yes | 256MB for startup |
 
 
 Rockchip RK3506G 7-Inch 1024*600 IPS Full Viewing Angle
