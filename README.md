@@ -5,6 +5,7 @@
 Feature | Supported | Notes  |
 |:--|:--|:--|
 | WiFi | Yes | AP6212A - Broadcom BCM43438 combo and Bluetooth Low Energy|
+| BLE | Still todo |  |
 | Touch | Yes | goodix-ts |
 | 1024x600 Display | Yes |  |
 | Portrait Mode | Yes |  |
