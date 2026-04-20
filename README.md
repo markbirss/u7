@@ -14,7 +14,7 @@ Feature | Working | Notes  |
 | USB Networking | Yes | 192.168.123.100 via USB 2.0 OTG Port |
 | ADB | Yes | via USB 2.0 OTG Port |
 | Serial Console | Yes | UART @ 115200 |
-| USB Storage | Yes | USB 2.0 HOST Port used for rootfs |
+| USB Storage | Yes | via USB 2.0 HOST Port used for rootfs |
 | SPI Nand Flash | Yes | 256MB used for startup |
 | Power Input | Yes | 5/12/24v DC Power Input |
 
